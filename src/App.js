@@ -1,4 +1,3 @@
-import './App.css';
 import { useEffect } from 'react';
 import {
   BrowserRouter as Router,
@@ -6,6 +5,7 @@ import {
   Route,
   useLocation,
 } from 'react-router-dom';
+import { GlobalStyle } from './styles';
 
 // Scroll to the top of the page when changing routes
 // https://reactrouter.com/web/guides/scroll-restoration/scroll-to-top
@@ -22,7 +22,7 @@ function ScrollToTop() {
 function App() {
   return (
     <div className="App">
-
+      <GlobalStyle />
       <Router>
         <ScrollToTop />
         <Switch>
