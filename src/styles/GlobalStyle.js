@@ -17,6 +17,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    height: 3000px; /* Used to enable scrolling */
+    background: linear-gradient(#fab493 0%, #f3a6ff 30%, #2d1078 60%, #1c0f3d 90%);
     margin: 0;
     padding: 0;
     width: 100%;
@@ -25,7 +27,6 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--black);
     color: var(--white);
     font-family: var(--font);
     font-size: var(--fz-md);
