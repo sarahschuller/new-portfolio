@@ -30,7 +30,7 @@ function App() {
             <h1>About Me</h1>
           </Route>
           <Route path="/work">
-            <h1>My Work111</h1>
+            <h1>My Work</h1>
           </Route>
           <Route path="/contact">
             <h1>Contact Me</h1>
